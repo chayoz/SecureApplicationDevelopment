@@ -70,10 +70,10 @@ namespace SecureLogin
                 endpoints.MapRazorPages();
             });
 
-            //Use this function to create roles if missing
+            //Use this function to create roles if missing, run it once
             //CreateRoles(serviceProvider).Wait();
 
-            //Use this function to create users and assign them roles if missing
+            //Use this function to create users and assign them roles if missing, run it once
             //CreateAccounts(serviceProvider).Wait();
         }
 
